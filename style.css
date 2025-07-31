@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    text-align: center;
+    padding: 40px;
+}
+
+.tara-container {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+
+.tara-image {
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid pink;
+    margin-bottom: 20px;
+}
+
+.chat-box {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    height: 150px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: hotpink;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
